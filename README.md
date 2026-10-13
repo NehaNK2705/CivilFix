@@ -29,7 +29,13 @@ npm run install:all
 ```
 *(Or install manually: `npm install && cd backend && npm install && cd ../frontend && npm install`)*
 
-### 2. Start Backend & Frontend Concurrently
+### 2. One-Click Launch (Python or Batch)
+```bash
+python start.py
+```
+*(Or double-click `start.bat` in Windows. This frees up ports 5000 & 5173, starts both servers, and opens your browser automatically!)*
+
+### Alternative: Start via npm
 ```bash
 npm run dev
 ```
